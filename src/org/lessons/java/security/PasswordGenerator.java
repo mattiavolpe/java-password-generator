@@ -18,6 +18,8 @@ public class PasswordGenerator {
 		System.out.print("Type your year of birth: ");
 		short year = sc.nextShort();
 		
+		sc.close();
+		
 		int sum = day + month + year;
 		
 		System.out.println("Generated passowrd is: " + name + "-" + lastName + "-" + color + "-" + sum);
